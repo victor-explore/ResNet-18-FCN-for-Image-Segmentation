@@ -68,13 +68,6 @@ python evaluate.py --model_path checkpoints/best_model.pth --test_dir data/test
 
 ## Model Performance
 
-### Quantitative Results
-
-| Model | Pixel Accuracy | Mean IOU |
-|-------|---------------|----------|
-| FCN without Skip | X% | Y% |
-| FCN with Skip | X% | Y% |
-
 ### Key Findings
 - Impact of skip connections on fine detail preservation
 - Trade-offs between computational complexity and accuracy
